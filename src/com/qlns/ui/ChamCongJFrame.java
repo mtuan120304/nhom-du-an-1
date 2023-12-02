@@ -43,7 +43,7 @@ public class ChamCongJFrame extends javax.swing.JFrame {
     // NhanVien LoggedInUser;
     private String HoTen;
     private String MaNV;
-
+// cụp cái pha m xuống
     public ChamCongJFrame() {
 
         initComponents();

@@ -72,6 +72,7 @@ public class DangNhapJFrame extends javax.swing.JFrame {
             for (BNS a : admin) {
                 if (a.getMaNV().equals(txtUser.getText().trim()) && (a.getMatKhau().equals(new String(txtPass.getPassword()).trim()))) {
                     JOptionPane.showMessageDialog(this, "Login Thành công ");
+//                    ChamCongJFrame cc = new ChamCongJFrame();
                     BanNhanSuJFrame adminFrame = new BanNhanSuJFrame(); // Tạo một biến mới cho frame
                     adminFrame.setVisible(true);
                     dispose();
